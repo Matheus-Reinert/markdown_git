@@ -33,6 +33,9 @@ git config user.email "Email do usúario"
 ```sh
 git status
 ```
+
+![](Images/gitstatus-modified.png)
+
 * Verfica  o status do repositório.
 
 ```sh
@@ -45,3 +48,30 @@ git add .
 git commit -m "Informação sobre o que foi realizado"
 ```
 * Salva as mudanças que ocorreram até o momento e as identifica através de uma mensagem.
+
+# Comandos Intermediários
+
+```sh
+git log
+git log --oneline
+```
+
+* Histórico de comitts
+
+```sh
+git checkout 
+```
+
+* Navegação por versões do projeto
+
+```sh
+git diff
+```
+
+* Compara alterações de arquivos
+
+```sh
+git commit --amend -m "Texto para substituir"
+```
+* Substitui o ultimo commit caso escreveu algo errado
+
