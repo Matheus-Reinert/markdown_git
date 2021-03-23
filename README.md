@@ -51,6 +51,13 @@ git commit -m "Informação sobre o que foi realizado"
 ```
 * Salva as mudanças que ocorreram até o momento e as identifica através de uma mensagem.
 
+![](Images/gitcommit-m.png)
+
+```sh
+git push
+```
+* Atualiza o repositório com o ultimo commit
+
 # Comandos Intermediários
 
 ```sh
@@ -59,6 +66,8 @@ git log --oneline
 ```
 
 * Histórico de comitts
+
+![](Images/gitlogoneline.png)
 
 ```sh
 git checkout 
@@ -69,11 +78,14 @@ git checkout
 ```sh
 git diff
 ```
-
 * Compara alterações de arquivos
+
+![](Images/diff.png)
 
 ```sh
 git commit --amend -m "Texto para substituir"
 ```
 * Substitui o ultimo commit caso escreveu algo errado
+
+
 
