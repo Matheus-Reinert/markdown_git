@@ -19,17 +19,17 @@ O GitHub é uma plataforma web que serve como repositório de código, utilizand
 git init
 ```
 * Inicializa o repositório .git.
-
+----
 ```sh
 git config user.name "Nome do usúario"
 ```
 * Define o nome do usúario.
-
+----
 ```sh
 git config user.email "Email do usúario"
 ```
 * Define o e-mail do usúario.
-
+----
 ```sh
 git status
 ```
@@ -37,7 +37,7 @@ git status
 
 ![](Images/gitstatus-modified.png)
 
-
+---
 ```sh
 git add "Nome do arquivo"
 git add .
@@ -46,6 +46,8 @@ git add .
 
 ![](Images/gitadd-modified.png)
 
+---
+
 ```sh
 git commit -m "Informação sobre o que foi realizado"
 ```
@@ -53,11 +55,14 @@ git commit -m "Informação sobre o que foi realizado"
 
 ![](Images/gitcommit-m.png)
 
+---
+
 ```sh
 git push
 ```
 * Atualiza o repositório com o ultimo commit
 
+---
 # Comandos Intermediários
 
 ```sh
@@ -69,11 +74,16 @@ git log --oneline
 
 ![](Images/gitlogoneline.png)
 
+---
+
 ```sh
 git checkout 
 ```
 
 * Navegação por versões do projeto
+
+----
+
 
 ```sh
 git diff
@@ -82,10 +92,47 @@ git diff
 
 ![](Images/diff.png)
 
+---
+
 ```sh
 git commit --amend -m "Texto para substituir"
 ```
 * Substitui o ultimo commit caso escreveu algo errado
+
+---
+## Branch
+
+Os branches permitem que você desenvolva recursos, corrija erros ou experimente com segurança novas ideias em uma área contida do seu repositório.
+
+```sh
+git branch testeBranch
+git branch
+git checkout testeBranch
+```
+
+![](Images/criandoeentrando.png)
+
+
+* Branch
+    * Cria branch chamada **testeBranch**
+    * Visualiza suas branchs criadas
+    * Entra na branch criada
+
+------
+```sh
+git branch -D testeBranch2
+```
+![](Images/deletandoBranch.png)
+
+* Excluí  branch testeBranch2
+
+
+
+
+
+
+
+
 
 
 
