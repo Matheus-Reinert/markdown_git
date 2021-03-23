@@ -5,7 +5,7 @@ O GitHub é uma plataforma web que serve como repositório de código, utilizand
 
 ### Monitoramento e controle de estágios
 
-![](estagiosgit.png)
+![](Images/estagiosgit.png)
 
 * Untracked apesar do arquivo fazer parte do projeto ele ainda não foi adicionado ao monitoramento do git.
 * Tracked a partir de então o git passa a controlar as mudanças nesse arquivo, conhecido como **New file**.
