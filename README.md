@@ -33,16 +33,18 @@ git config user.email "Email do usúario"
 ```sh
 git status
 ```
+* Verfica  o status do repositório.
 
 ![](Images/gitstatus-modified.png)
 
-* Verfica  o status do repositório.
 
 ```sh
 git add "Nome do arquivo"
 git add .
 ```
 * Adiciona o arquivo ou todos os arquivos ao repositório.
+
+![](Images/gitadd-modified.png)
 
 ```sh
 git commit -m "Informação sobre o que foi realizado"
